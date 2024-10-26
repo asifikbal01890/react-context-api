@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleFrom from './components/SimpleFrom/SimpleFrom'
 import StateForm from './components/SimpleFrom/StateForm'
+import ContextApi from './components/contextApi/ContextApi'
+import GrandPa from './components/Grandpa/GrandPa'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,10 +13,12 @@ function App() {
   return (
     <>
       
-      <h1>Vite + React</h1>
+      {/* <h1>Vite + React</h1> */}
      
      {/* <SimpleFrom></SimpleFrom> */}
-     <StateForm></StateForm>
+     {/* <StateForm></StateForm> */}
+     {/* <ContextApi></ContextApi> */}
+     <GrandPa></GrandPa>
     </>
   )
 }
